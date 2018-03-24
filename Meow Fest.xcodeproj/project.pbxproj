@@ -12,6 +12,10 @@
 		8764F4AF2066C3F600ECB8B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8764F4AD2066C3F600ECB8B5 /* Main.storyboard */; };
 		8764F4B12066C3F600ECB8B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8764F4B02066C3F600ECB8B5 /* Assets.xcassets */; };
 		8764F4B42066C3F600ECB8B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8764F4B22066C3F600ECB8B5 /* LaunchScreen.storyboard */; };
+		8764F4BC2066C58700ECB8B5 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764F4BB2066C58700ECB8B5 /* Networking.swift */; };
+		8764F4BE2066C5A200ECB8B5 /* Meow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764F4BD2066C5A200ECB8B5 /* Meow.swift */; };
+		8764F4C02066CBE000ECB8B5 /* MeowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764F4BF2066CBE000ECB8B5 /* MeowTableViewCell.swift */; };
+		8764F4C22066D6BD00ECB8B5 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764F4C12066D6BD00ECB8B5 /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		8764F4B02066C3F600ECB8B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8764F4B32066C3F600ECB8B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8764F4B52066C3F600ECB8B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8764F4BB2066C58700ECB8B5 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		8764F4BD2066C5A200ECB8B5 /* Meow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meow.swift; sourceTree = "<group>"; };
+		8764F4BF2066CBE000ECB8B5 /* MeowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowTableViewCell.swift; sourceTree = "<group>"; };
+		8764F4C12066D6BD00ECB8B5 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				8764F4A92066C3F600ECB8B5 /* AppDelegate.swift */,
 				8764F4AB2066C3F600ECB8B5 /* ViewController.swift */,
+				8764F4BB2066C58700ECB8B5 /* Networking.swift */,
+				8764F4C12066D6BD00ECB8B5 /* UIImageView.swift */,
 				8764F4AD2066C3F600ECB8B5 /* Main.storyboard */,
 				8764F4B02066C3F600ECB8B5 /* Assets.xcassets */,
 				8764F4B22066C3F600ECB8B5 /* LaunchScreen.storyboard */,
 				8764F4B52066C3F600ECB8B5 /* Info.plist */,
+				8764F4BD2066C5A200ECB8B5 /* Meow.swift */,
+				8764F4BF2066CBE000ECB8B5 /* MeowTableViewCell.swift */,
 			);
 			path = "Meow Fest";
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8764F4C02066CBE000ECB8B5 /* MeowTableViewCell.swift in Sources */,
+				8764F4BC2066C58700ECB8B5 /* Networking.swift in Sources */,
+				8764F4BE2066C5A200ECB8B5 /* Meow.swift in Sources */,
 				8764F4AC2066C3F600ECB8B5 /* ViewController.swift in Sources */,
+				8764F4C22066D6BD00ECB8B5 /* UIImageView.swift in Sources */,
 				8764F4AA2066C3F600ECB8B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
